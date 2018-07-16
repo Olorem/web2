@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	margin-right: 0;
+}
+
+.block_header {
+	position: fixed;
+	/*margin-left: 30px;*/
+	margin-right: 0px;
+	color: #222222;
+	font-size: 200%;
+	border-collapse: collapse;
+	/*border: 3px solid gray;*/
+	border-top-color: #131f15;
+	font-family: Arial;
+	/*padding-left: 10px;*/
+	background-color: #4caf50;
+	background-color: 4caf50;
+	z-index: 0;
+	width: 1000%;
+	display: inline-block;
+	text-align: center;
+	height: 60px;
+}
+
+.link_head{
+	width: 90px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+	height: 30px;
+	transition: 0.2s;
+	max-height: 20%;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+    cursor: pointer;
+    float: left;
+}
+
+#about{
+	/*float: right;*/
+	margin-left: 605px;
+}
+
+.link_head:hover{
+	background-color: #3c9f40;
+	color: #fff;
+}
+
+.link_head:active{
+	background-color: #2c8f30;
+	color: #fafafa;
+}
+
+.link{
+	text-align: center;
+	width: 285px;
+	background-color: #aaaaaa;
+	border: 3px groove gray;
+	border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+body{
+	background-color: #fff;
+	/*margin-left: 30px;*/
+	
+}
+hr {
+	color: #1a1afa;
+}
+marquee {
+	font-family: Georgia, Times, serif;
+	background-color: #fff;
+	color: #4caf50;
+	width: 100%;
+	font-size: 125%;
+	/*margin-right: 30px;*/
+	border-top: 3px solid #4caf50;
+	border-bottom: 3px solid #4caf50;
+	margin-top: 70px;
+}
+
+.but a{
+	font-family: Arial, sans-serif;
+	border: 3px solid orange;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background-color: orange;
+	width: 180px;
+	padding: 10px 15px;
+	font-size: 200%;
+	transition: 0.7s; 
+	color: #fff;
+	border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.but a:hover{
+	background-color: #fff;
+	cursor: pointer;
+	color: orange;
+	box-shadow: 8px 8px 10px;
+}
+
+audio {
+	
+}
+
+img {
+	border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+div{
+	/*border: 1px solid #0000ff;*/
+}
