@@ -72,9 +72,7 @@ body{
 	/*margin-left: 30px;*/
 	
 }
-hr {
-	color: #1a1afa;
-}
+
 marquee {
 	font-family: Georgia, Times, serif;
 	background-color: #fff;
@@ -112,8 +110,9 @@ marquee {
 	box-shadow: 8px 8px 10px;
 }
 
-audio {
-	
+.but a:active{
+	transform: translateY(4px);
+	box-shadow: 4px 4px darkorange;
 }
 
 img {
