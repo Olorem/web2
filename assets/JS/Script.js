@@ -1,2 +1,10 @@
-"use strict";
-//alert("I'm JavaScript");
+'use strict';
+
+function sayHi(){
+
+	var userName = prompt("Enter your name", "James");
+	alert("Hi, " + userName);
+}
+
+
+sayHi();

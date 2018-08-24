@@ -32,41 +32,55 @@ p {
 	max-width: 960px;
 	margin: auto;
 }
+
 header {
 	padding: 20px 0;
+	1;
 }
+
 form[name="search"] {
 	float: right;
+	1;
 }
+
 nav a {
 	text-decoration: none;
+	1;
 }
+
 nav ul {
 	margin: 0;
 	padding: 0;
 }
+
 nav li {
 	list-style-position: inside;
 	font: 14px 'Oswald', sans-serif;
 	padding: 10px;
 }
+
 .top-menu li {
 	display: inline-block;
 	padding: 10px 30px;
 	margin: 0;
 }
+
 .top-menu li.active {
 	background: #29c5e6;
 	color: #fff;
 }
+
 .top-menu a {
 	color: #b2b2b2;
+	1;
 }
+
 #heading {
 	background: linear-gradient(rgba(256, 256, 256, 1), rgba(128, 128, 128, 0.5));
 	margin: 30px 0;
 	padding-left: 20px;
 }
+
 h1 {
 	display: inline-block;
 	color: #7e7e7e;
@@ -75,28 +89,38 @@ h1 {
 	margin: 0;
 	padding: 0 10px;
 }
+
 aside {
 	float: left;
 	width: 250px;
 }
+
 section {
 	margin-left: 280px;
 	padding-bottom: 50px;
 }
+
 .aside-menu li {
 	font-weight: 300;
 	list-style-type: square;
 	border-top: 1px solid #e7e7e7;
 }
+
 .aside-menu li:first-child {
 	border: none;
+	1;
 }
+
 .aside-menu li.active {
 	color: #29c5e6;
+	1;
 }
+
 .aside-menu a {
 	color: #8f8f8f;
+	1;
 }
+
 aside > h2 {
 	background: #29c5e6;
 	font: 14px 'Oswald', sans-serif;
@@ -104,12 +128,14 @@ aside > h2 {
 	padding: 10px;
 	margin: 30px 0 0 0;
 }
+
 aside > p {
 	background: #f3f3f3;
 	border: 1px solid #e7e7e7;
 	padding: 10px;
 	margin: 0;
 }
+
 blockquote {
 	margin: 0;
 	background: #29c5e6;
@@ -117,12 +143,14 @@ blockquote {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 }
+
 blockquote p {
 	color: #fff;
 	font-style: italic;
 	font-size: 33px;
 	margin: 0;
 }
+
 blockquote cite {
 	display: block;
 	font-size: 20px;
@@ -131,30 +159,37 @@ blockquote cite {
 	margin: 0;
 	text-align: right;
 }
+
 figure {
 	display: inline-block;
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 }
+
 figure img {
 	display: block;
 	border: 1px solid #fff;
 	outline: 1px solid #c9c9c9;
 }
+
 figure figcaption {
 	font-size: 16px;
 	font-weight: 300;
 	margin-top: 5px;
 }
+
 figure figcaption span {
 	display: block;
 	font-size: 14px;
 	color: #29c5e6;
 }
+
 section > figure + figure {
 	margin-left: 28px;
+	1;
 }
+
 section > h2 {
 	background: #29c5e6;
 	font: 30px 'Oswald', sans-serif;
@@ -163,20 +198,26 @@ section > h2 {
 	padding: 0 10px;
 	margin: 30px 0 0 0;
 }
+
 figure figcaption {
 	font-size: 16px;
 	font-weight: 300;
 	margin-top: 5px;
 }
+
 figure div {
 	font-size: 14px;
 	color: #29c5e6;
 }
+
 .team-row figure {
 	margin-top: 20px;
+	1;
 }
+
 .team-row figure + figure {
 	margin-left: 43px;
+	1;
 }
 
 
