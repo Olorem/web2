@@ -1,10 +1,12 @@
 'use strict';
 
-function sayHi(){
+var user = {
+	name: "Vasiliy",
+	sayHi: function(){
+		alert(this.name);
+	}
+};
 
-	var userName = prompt("Enter your name", "James");
-	alert("Hi, " + userName);
-}
-
-
-sayHi();
+var admin = user;
+user = null;
+admin.sayHi();
