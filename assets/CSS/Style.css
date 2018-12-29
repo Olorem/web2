@@ -8,7 +8,7 @@
 a {
 	text-decoration: none;
 	color: #000;
-	font-family: 'Lobster', cursive;
+	font-family: 'Patua One', cursive;
 }
 .body{
 	/*background:  linear-gradient(rgba(255, 165, 58, 1), rgba(0, 90, 200, 0.5));*/
@@ -88,7 +88,7 @@ marquee {
 	padding: 10px;
 	height: 8%;
 	width: 70%;
-	position: relative;
+	/*position: relative;*/
 	float: left;
 	margin-left: 13.5%;
 	margin-top: 30px;
@@ -110,7 +110,7 @@ marquee {
 	transition: 0.2s; 
 	color: #fff;
 	border-radius: 100px;
-	position: relative;
+	/*position: relative;*/
 	
 	bottom: 1px;
 }
@@ -120,6 +120,10 @@ marquee {
 	cursor: pointer;
 	color: #ffa500;
 	box-shadow: 0px 6px 20px #2b2b2b;
+}
+
+.but a:hover > progress{
+	value: 10;
 }
 
 .but a:active{
@@ -154,7 +158,7 @@ p{
 }
 
 .block_hood {
-	position: relative;
+	/*position: relative;*/
 	float: right;
 	text-align: center;
     margin-left: 30px;
@@ -201,7 +205,7 @@ p{
 	display: block;
 	border-top: 1px solid #000000;
 	font-size: 125%;
-	font-family: 'Lobster', cursive;
+	font-family: 'Concert One', cursive;
 	text-align: center;
 	position: relative;
 	top: 35px;
@@ -238,6 +242,7 @@ form {
 .block_first{
 	min-height: 410px;
 	height: auto;
+	min-width: 860px;
     background-color: #424242;
     margin-top: 30px;
     border-radius: 1px;
@@ -252,7 +257,7 @@ input[type="text"] {
 	border-top-left-radius: 2px;
 	height: 45px;
 	color: #b2b2b2;
-	padding: 0 10px;
+	padding: 0 1vw;
 	/*float: left;*/
 	box-shadow: 0px 0px 10px #222;
 	width: 12vw;
@@ -260,20 +265,21 @@ input[type="text"] {
 	/*vertical-align: top;*/
 }
 
-button[type="submit"] {
+button.form {
 	display: block;
 	background-color: #ffa500;
-	border: 1px solid #ffa500;
+	border: 0.25vw solid #ffa500;
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
 	height: 47px;
 	color: #303030;
-	padding: 5px;
-	/*float: left;*/;
+	/*padding: 0 1vw;
+	float: left;*/;
 	width: 4vw;
 	box-shadow: 0px 0px 10px #222;
 	font-size: 16px;
 	font-family: "Patua One", sans-serif;
+	text-align: center;
 	vertical-align: center;
 }
 
@@ -287,7 +293,7 @@ form[name="search"]{
 input[name="blank"]{
 	width: 62vw;
 	box-shadow: 0px 0px 10px #222;
-	margin-left: 5.4vw;
+	margin-left: 5vw;
 }
 
 .sidebar{
@@ -309,7 +315,7 @@ input[name="blank"]{
 }
 
 .sidebar > ul > li{
-	padding: 7px 0px;
+	padding: 8px 0px;
 	font-size: 30px;
 	width: 16vw;
 	margin: auto;
@@ -348,6 +354,97 @@ input[name="blank"]{
 }
 
 .video {display: none;}
+
+div.cross {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/cross.png) no-repeat;
+	position: relative;
+	float: right;
+	padding-right: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.cross:hover{
+	background: url(../../img/crossH.png) no-repeat;
+}
+
+.formAct{
+	margin: 10vh 0px 0 30px;
+	width: 750px;
+	display: block;
+	position: relative;
+}
+
+#fst{
+	float: top;
+}
+
+#scd, #fst{
+	box-shadow: #4a4a4a 0px 0px 1px;
+	border-radius: 4px;
+	font-size: 20px; padding: 20px;
+	border: 2px solid #4a4a4a;
+	background-color: #fff;
+	width: 600px; height: 200px;
+}
+
+#scd{
+	cursor: not-allowed;
+}
+
+.formAct a{
+	padding: 10px;
+	float: right;
+	display: block;
+	height: auto;
+	border: 1px solid #ffa500;
+	color: #fff;
+	background: #444444;
+}
+
+
+
+.calc{
+	color: #fff; font-size: 26px;
+	background: #666;
+	margin: 20px;
+	width: 450px;
+	height: 400px;
+	border: 1px solid #ffa500;
+}
+
+.calc a{
+	/*width: 75px; height: 45px;*/
+	text-align: center;
+	line-height: 62px;
+	white-space: nowrap;
+    overflow: hidden;
+	vertical-align: middle;
+	display: inline-block;
+	border: 0;
+	width: 30%; height: 17%;
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+	background: #444444;
+	color: inherit; font-size: inherit;
+}
+
+.calc a:hover, .calc input:hover{
+	background: #555555;
+}
+
+.calc input{
+	padding: 4.5%;
+	background: #444;
+	box-sizing: border-box;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #ffa500;
+	color: inherit; font-size: inherit;
+}
 
 div{/*border: 1px solid #0000ff;*/}
 

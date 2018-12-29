@@ -1,0 +1,39 @@
+#matrix{
+	display: block;
+	width: 400px; height: 400px;
+	/*border-top: 1px solid gray;
+	border-left: 1px solid gray;*/
+	border: 1px solid gray;
+}
+
+.cell{
+	border: 1px solid gray;
+	/*border-bottom: 1px solid gray;
+	border-right: 1px solid gray;*/
+	box-sizing: border-box;
+	width: 20px; height: 20px; float: left;
+}
+
+.popup{
+	/*display: inline-block;*/
+	border: 1px solid gray;
+	position: absolute;
+	left: 15vw; top: 25vh;
+	height: 50vh; width: 70vw;
+}
+.popup > div {
+	border: 1px solid blue;
+	box-sizing: border-box;
+	width: 50%; height: 100%;
+	display: block;
+	position: relative;
+	float: right;
+}
+
+.popup :first-child{
+	float: left;
+}
+
+/*.cell:hover{
+	background: #ccc;
+}*/

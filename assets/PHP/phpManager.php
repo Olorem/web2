@@ -8,18 +8,19 @@
 
     while($row = fgetcsv($handle))
     {
-    	$image = $row[0];
-    	$name = $row[1];
-    	$cost = $row[2];
-    	$rating = $row[3];
-    	$category = $row[4];
-    	$weight = $row[5];
-    	$color = $row[6];
-    	$country = $row[7];
+    	$name = $row[0];
+    	$cost = $row[1];
+    	$rating = $row[2];
+    	$category = $row[3];
+    	$weight = $row[4];
+    	$color = $row[5];
+    	$country = $row[6];
+    	$image = $row[7];
     	$result = "<img class=\"product_image\" src=\"{$image}\"/>";
     	//printf($result);
 		?>
 		<div class="block_first">
+			<div class="cross">&nbsp;</div>
 			<div class="block_image">
 				<?= $result ?>
 			</div>
@@ -49,10 +50,12 @@
 						<li><?=$country?></li>
 					</ul>
 				</div>
+
 				<div class="but">
 						<a href="testpage.html" accesskey="s">  Add to card  </a>
 				</div>
 			</div>
+			
 		</div>
 <?php } 
 	fclose($handle);
