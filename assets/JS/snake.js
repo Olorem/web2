@@ -20,7 +20,7 @@ function createMatrix() {
 		if(row < 0) row = 20 + row%20; if(col < 0) col = 20 + col%20;
 		var curCell = matrix.children[row*20 + col];
 		curCell.style.background='#555555';//#aaff55
-		curCell.style.border="1px solid #ffa500";
+		curCell.style.border="0.5px solid #ffa500";
 		curCell.style.transition="0s";
 	};
 
@@ -28,7 +28,7 @@ function createMatrix() {
 		if(row < 0) row = 20 + row%20; if(col < 0) col = 20 + col%20;
 		var curCell = matrix.children[row*20 + col];
 		curCell.style.background="transparent";
-		curCell.style.border="1px solid gray";
+		curCell.style.border="0.5px solid gray";
 		curCell.style.transition="1.5s";
 	};
 

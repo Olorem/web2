@@ -52,7 +52,7 @@ alert(obj.name + obj.age);
 alert("userAgent " + navigator.userAgent);
 alert(navigator.platform);*/
 var elem = document.getElementById('about');
-elem.style.background = '#ffa500';
+elem.style.background = '#005aff';
 
 /*alert("appName " + navigator.appName);
 alert("battery " + navigator.battery);

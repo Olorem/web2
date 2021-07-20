@@ -1,8 +1,13 @@
+:root{
+	--color-main: #005aff;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	margin-right: 0;
 	font-family: 'Oswald', sans-serif;
+
 }
 
 a {
@@ -14,8 +19,12 @@ a {
 	/*background:  linear-gradient(rgba(255, 165, 58, 1), rgba(0, 90, 200, 0.5));*/
 	/*background-color: #303030;*/
 	/*max-width: 940px;
-	margin: auto;
-	background-color: #303030;*/
+	margin: auto;*/
+	font-family: 'Arial', serif;
+	background-color: #303030;
+	width: 100vw;
+	overflow: hidden;
+
 }
 
 .block_header{
@@ -60,7 +69,7 @@ a {
 }
 
 /*.link_head:active{
-	background-color: #ffa500;
+	background-color: var(--color-main);
 	color: #3a3a3a;
 }
 
@@ -97,12 +106,12 @@ marquee {
 	justify-content: center;*/
 }
 .but a{
-	font-family: Arial, sans-serif;
-	border: 3px solid #ffa500;
+	font-family: Arial, serif;
+	border: 3px solid var(--color-main);
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	background-color: #ffa500;
+	background-color: var(--color-main);
 	/*width: 180px;
 	height: 35px;*/
 	padding: 10px 15px;
@@ -118,7 +127,7 @@ marquee {
 .but a:hover{
 	background-color: #fff;
 	cursor: pointer;
-	color: #ffa500;
+	color: var(--color-main);
 	box-shadow: 0px 6px 20px #2b2b2b;
 }
 
@@ -135,7 +144,7 @@ img.product_image {
 	position: relative;
 	top: 20px;
 	margin-left: 30px;
-	border: 3.5px solid #ffa500;
+	border: 3.5px solid var(--color-main);
 	width: 360px;
 	height: auto;
 	border-radius: 100%;
@@ -214,12 +223,12 @@ p{
 	padding-bottom: 5px;
 	width: 100%;
 	background-color: #383838;
-	/*background:  linear-gradient(#ed1160, #ffa500);*/
+	/*background:  linear-gradient(#ed1160, var(--color-main));*/
 }
 
 .hidden{
 	
-	color: #303030;
+	color: transparent;
 }
 
 form {
@@ -252,7 +261,7 @@ form {
 input[type="text"] {
 	display: block;
 	background-color: #424242;
-	border: 1px solid #ffa500;
+	border: 1px solid var(--color-main);
 	border-bottom-left-radius: 2px;
 	border-top-left-radius: 2px;
 	height: 45px;
@@ -267,12 +276,12 @@ input[type="text"] {
 
 button.form {
 	display: block;
-	background-color: #ffa500;
-	border: 0.25vw solid #ffa500;
+	background-color: var(--color-main);
+	border: 0.25vw solid var(--color-main);
 	border-top-right-radius: 2px;
 	border-bottom-right-radius: 2px;
 	height: 47px;
-	color: #303030;
+	color: #ddd;
 	/*padding: 0 1vw;
 	float: left;*/;
 	width: 4vw;
@@ -319,7 +328,7 @@ input[name="blank"]{
 	font-size: 30px;
 	width: 16vw;
 	margin: auto;
-	border-top: 1px solid #ffa500;
+	border-top: 1px solid var(--color-main);
 }
 
 .sidebar li:first-child {
@@ -349,7 +358,7 @@ input[name="blank"]{
 .advertisement > .text{
 	text-align: center;
 	font-size: 3vh;
-	font-stretch: condensed;
+	/*font-stretch: condensed;*/
 	padding: 2.6vh 10px;
 }
 
@@ -400,7 +409,7 @@ div.cross {
 	float: right;
 	display: block;
 	height: auto;
-	border: 1px solid #ffa500;
+	border: 1px solid var(--color-main);
 	color: #fff;
 	background: #444444;
 }
@@ -413,7 +422,7 @@ div.cross {
 	margin: 20px;
 	width: 450px;
 	height: 400px;
-	border: 1px solid #ffa500;
+	border: 1px solid var(--color-main);
 }
 
 .calc a{
@@ -442,9 +451,23 @@ div.cross {
 	box-sizing: border-box;
 	width: 100%;
 	border: 0;
-	border-bottom: 1px solid #ffa500;
+	border-bottom: 1px solid var(--color-main);
 	color: inherit; font-size: inherit;
 }
+
+.Circle{
+	background: #ff0000;
+	/*box-sizing: border-box;*/
+	position: relative;
+	top: 5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	left: 5px;
+	transition: all 1s ease-out;
+}
+
+.circleDiv{ height: 0px; }
 
 div{/*border: 1px solid #0000ff;*/}
 

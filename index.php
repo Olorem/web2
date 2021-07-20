@@ -36,7 +36,7 @@
 				<form name="search" action="assets/PHP/test_sql.php" method="get">
 					<input type="text" placeholder="Search" name="qsearch"/>
 					<button class="form" name="go">Go</button>
-					<input formaction="assets/PHP/test_sql.php" type="text" placeholder="Adding a new product (name, cost, rating, category, weight, color, country, image reference)" name="blank"/>
+					<input formaction="assets/PHP/test_sql.php" type="text" placeholder="Adding a new product (name, cost, rating, category, weight, color, country, image link)" name="blank"/>
 					<button class="form" name="add">Add</button>
 				</form>
 			</div>
@@ -79,10 +79,9 @@
 
 
 
-		<div class="block_footer">
+		<div class="block_footer" style="color: black">
 
-			This page was made by <a href="https://www.google.ru/search?newwindow=1&authuser=0&source=hp&ei=lWmAW7WNB4ysswGxxJaYCg&q=rearto&oq=rearto&gs_l=psy-ab.3..0i10i19k1j0i19k1l2j0i10i30i19k1l2j0i30i19k1l2j0i10i30i19k1j0i30i19k1j0i10i30i19k1.3074.8399.0.9903.8.7.0.0.0.0.167.658.3j3.7.0....0...1.1.64.psy-ab..1.7.740.6..0j35i39k1j0i131k1.86.e4MATvtuXwo">Rearto</a> <sup>&copy;</sup></div>
-			<?php echo date('l, F jS, Y'); ?>
+			This page made by <a href="https://www.google.ru/search?q=Olorem">Olorem</a> <sup>&copy;</sup></div>
 			
 
 
